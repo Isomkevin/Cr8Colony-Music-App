@@ -19,6 +19,11 @@ export const navBar = [
     name: "Artists",
     path: "/artists",
   },
+  {
+    id: 5,
+    name: "Artists",
+    path: "/artists",
+  },
 ]
 export const hero1 = [
   {

@@ -1,4 +1,4 @@
-import { Artist, Browse, Browser, Charts, Header, Home, Layout, LayoutSidebar } from "./router"
+import { Artist, Browse, Browser, Charts, Header, Home, Layout, Content,LayoutSidebar, UnderDevelopment } from "./router"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
 function App() {
@@ -10,6 +10,30 @@ function App() {
           element={
             <Layout>
               <Home />
+            </Layout>
+          }
+        />
+        {/* <Route
+          path='/'
+          element={
+            <Layout>
+              <Home />
+            </Layout>
+          }
+        /> */}
+        <Route 
+        path="/content/:id" 
+        element={
+          <Layout>
+            <Content />
+          </Layout>
+        }
+        />
+        <Route
+          path='/content-details'
+          element={
+            <Layout>
+              <Content />
             </Layout>
           }
         />

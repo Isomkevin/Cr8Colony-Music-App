@@ -22,7 +22,7 @@ export const navBar = [
   {
     id: 5,
     name: "Artists",
-    path: "/artists",
+    path: "/content-details",
   },
 ]
 export const hero1 = [

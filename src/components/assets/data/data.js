@@ -155,7 +155,7 @@ export const news = [
   },
 ]
 
-export const recommand = [
+export const recommend = [
   {
     id: 1,
     name: "Simple Place To Be",

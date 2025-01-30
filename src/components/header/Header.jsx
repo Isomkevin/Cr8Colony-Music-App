@@ -18,7 +18,7 @@ export const Header = () => {
           <div>
             <img src={logo} alt='logo' width='40px' height='40px' />
           </div>
-          <h2 className='text-2xl font-semibold ml-3'>pluse</h2>
+          <h2 className='text-2xl font-semibold ml-3'>Cr8Colony</h2>
         </div>
 
         {/* navlinks  */}
@@ -50,7 +50,7 @@ export const Header = () => {
             <div>
               <img src={logo} alt='logo' width='40px' height='40px' />
             </div>
-            <h2 className='text-2xl font-semibold ml-3'>pluse</h2>
+            <h2 className='text-2xl font-semibold ml-3'>Cr8Colony</h2>
           </div>
         </Link>
 

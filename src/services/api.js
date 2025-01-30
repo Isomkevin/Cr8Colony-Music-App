@@ -1,5 +1,7 @@
 // src/services/api.js
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL2 = 'http://localhost:5000/api';
+
+const API_BASE_URL = "https://cr8colony-backend.onrender.com/api/"
 
 export const fetchNavigation = () => fetch(`${API_BASE_URL}/navigation`).then(res => res.json());
 export const fetchHero1 = () => fetch(`${API_BASE_URL}/hero1`).then(res => res.json());

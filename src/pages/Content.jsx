@@ -5,7 +5,7 @@ export const Content = () => {
   const [contents, setContents] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/contents") // Change URL if deployed
+    fetch("https://cr8colony-backend.onrender.com/api/contents") // Change URL if deployed
       .then((response) => response.json())
       .then((data) => setContents(data))
       .catch((error) => console.error("Error fetching contents:", error));
